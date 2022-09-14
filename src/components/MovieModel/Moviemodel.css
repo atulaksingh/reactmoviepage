@@ -1,0 +1,50 @@
+.moviemodel-header {
+  width: 20rem;
+  margin: auto;
+  padding: 8px;
+  background-color: white;
+  /* border: 1px solid white; */
+  border-radius: 18px;
+  /* box-shadow: 0 0 8px rgba(0, 0, 0, 0.5); */
+  position: fixed;
+  top: 20vh;
+  left: calc(50% - 10rem);
+  z-index: 10;
+  overflow-y: auto;
+}
+
+.model-img {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+  border-radius: 18px;
+}
+.moviemodel-header p {
+  margin: 8px 0 0 0;
+}
+.moviemodel-header h3 {
+  margin: 0;
+}
+.action {
+  font-size: 14px;
+  color: rgb(17, 3, 3);
+}
+.btn-dark {
+  background-color: black;
+  color: white;
+  border-radius: 8px;
+  padding: 12px 38px;
+  display: inline-block;
+  margin: 15px 0 0 0;
+  cursor: pointer;
+  border: none;
+}
+.backdrop {
+  position: fixed;
+  z-index: 1;
+  background-color: rgba(0, 0, 0, 0.824);
+  width: 100%;
+  height: 100vh;
+  top: 0;
+  left: 0;
+}
